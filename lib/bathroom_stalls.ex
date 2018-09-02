@@ -1,17 +1,5 @@
-defmodule BathroomSatlls do
-  @moduledoc """
-  Documentation for BathroomSatlls.
-  """
+defmodule BathroomStalls do
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> BathroomSatlls.hello()
-      :world
-
-  """
   def st do
     numberOfInputsAndList = getFileTextInformation()
     {:ok, file} = File.open "output.out", [:write]
